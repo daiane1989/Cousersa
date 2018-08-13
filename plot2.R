@@ -1,7 +1,7 @@
 
 #plot 2
 
-setwd("C:/Users/Daiane/Desktop/COURSERA/Exploratory data analysis/semana1/teste")
+setwd("C:/Users/Daiane/Desktop/COURSERA/Exploratory data analysis/semana1/avaliation/Cousersa")
 
 #Local File
 dir = file('./exdata_data_household_power_consumption/household_power_consumption.txt')
