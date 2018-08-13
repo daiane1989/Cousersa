@@ -1,6 +1,7 @@
 
 #plot 3
 
+
 setwd("C:/Users/Daiane/Desktop/COURSERA/Exploratory data analysis/semana1/avaliation/Cousersa")
 
 #Local File
