@@ -9,6 +9,8 @@ dir = file('./exdata_data_household_power_consumption/household_power_consumptio
 
 library(dplyr)
 
+Sys.setlocale(category = "LC_ALL", locale = "english")
+
 banco = read.table(text = grep("^[1,2]/2/2007",readLines(dir),value=TRUE), sep = ';', col.names = c("Date", "Time", "Global_active_power", "Global_reactive_power", "Voltage", "Global_intensity", "Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), na.strings = '?')
 
 png(filename='plot2.png', width=480, height=480, units='px')
